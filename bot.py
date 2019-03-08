@@ -46,4 +46,4 @@ async def gen(ctx):
 
 
     
-client.run(str(os.environ.get('BOT_TOKEN')))
+client.run(os.getenv("TOKEN"))
